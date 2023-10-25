@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Vendor App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to O.K Food</h1>
+        <p>Kindly select your order...</p>
+        <form id="order-form">
+            <div class="food-items">
+                <div class="food-item">
+                    <label>
+                        <span class="food-name">Burger</span>
+                        <span class="food-price">&#8358 5000</span>
+                    </label>
+                    <input type="number" name="food-item" id="burger" value="0" min="0" data-price="5000">
+                </div>
+                <div class="food-item">
+                    <label>
+                        <span class="food-name">Pizza</span>
+                        <span class="food-price">&#8358 12000</span>
+                    </label>
+                    <input type="number" name="food-item" id="pizza" value="0" min="0" data-price="12000">
+                </div>
+                <div class="food-item">
+                    <label>
+                        <span class="food-name">Shawarma</span>
+                        <span class="food-price">&#8358 3000</span>
+                    </label>
+                    <input type="number" name="food-item" id="Shawarma" value="0" min="0" data-price="3000">
+                </div>
+                <div class="food-item">
+                    <label>
+                        <span class="food-name">Salad</span>
+                        <span class="food-price">&#8358 3500</span>
+                    </label>
+                    <input type="number" name="food-item" id="salad" value="0" min="0" data-price="3500">
+                </div>
+                <div class="food-item">
+                    <label>
+                        <span class="food-name">Sushi</span>
+                        <span class="food-price">&#8358 6500</span>
+                    </label>
+                    <input type="number" name="food-item" id="sushi" value="0" min="0" data-price="6500">
+                </div>
+            </div>
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="order-summary"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
